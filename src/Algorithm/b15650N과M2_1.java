@@ -2,11 +2,11 @@ package Algorithm;
 
 import java.util.Scanner;
 
-public class b15650N°úM2_1 {
+public class b15650Nê³¼M2_1 {
 	static int[] a = new int[10];
 
 	static void go(int index, int selected, int n, int m) {
-		// index == m Ãâ·Â
+		// index == m ï¿½ï¿½ï¿½
 		if (selected == m) {
 			for (int i = 0; i < m; i++) {
 				System.out.print(a[i]);
@@ -15,12 +15,12 @@ public class b15650N°úM2_1 {
 			}
 			System.out.println();
 			return;
-		} // Áßº¹ ¾øÀÌ M°³ »Ì±â (¿À¸§Â÷¼ø)
+		} // ï¿½ßºï¿½ ï¿½ï¿½ï¿½ï¿½ Mï¿½ï¿½ ï¿½Ì±ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 
 		if (index > n)
 			return;
-		// ÀÌÇØ°¡ ¾È°£´Ù.. ÀÏ´Ü ¸ðµç °æ¿ìÀÇ ¼ö ÆÄ¾ÇÇÏ´Â°Ç ¾Ë°Ú´Âµ¥.. if Àý¾È°¨½Îµµ µÅ?
-		// ¿ø·¡ ÀÌ·¸°Ô ÇÏ´Â°Ç°¡..
+		// ï¿½ï¿½ï¿½Ø°ï¿½ ï¿½È°ï¿½ï¿½ï¿½.. ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ä¾ï¿½ï¿½Ï´Â°ï¿½ ï¿½Ë°Ú´Âµï¿½.. if ï¿½ï¿½ï¿½È°ï¿½ï¿½Îµï¿½ ï¿½ï¿½?
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½Ì·ï¿½ï¿½ï¿½ ï¿½Ï´Â°Ç°ï¿½..
 		a[selected] = index;
 		go(index + 1, selected + 1, n, m);
 		a[selected] = 0;

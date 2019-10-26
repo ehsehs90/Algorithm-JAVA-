@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class b6064ī�״޷� {
+public class b6064카잉달력 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 

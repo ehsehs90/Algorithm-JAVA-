@@ -2,12 +2,12 @@ package Algorithm;
 
 import java.util.*;
 
-public class b15651N°úM3_1 {
+public class b15651Nê³¼M3_1{
 	static boolean[] c = new boolean[10];
 	static int[] a = new int[10];
 
 	static StringBuilder go(int index, int n, int m) {
-		// index == m Ãâ·Â
+		// index == m ï¿½ï¿½ï¿½
 		if (index == m) {
 			StringBuilder sb = new StringBuilder();
 			for (int i = 0; i < m; i++) {
@@ -17,7 +17,7 @@ public class b15651N°úM3_1 {
 			}
 			sb.append("\n");
 			return sb;
-		} // Áßº¹ ¾øÀÌ M°³ »Ì±â (¿À¸§Â÷¼ø)
+		} // ï¿½ßºï¿½ ï¿½ï¿½ï¿½ï¿½ Mï¿½ï¿½ ï¿½Ì±ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 		StringBuilder ans = new StringBuilder();
 		for (int i = 1; i <= n; i++) {
 			// if(c[i]) continue;

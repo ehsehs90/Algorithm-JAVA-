@@ -2,7 +2,7 @@ package Algorithm;
 
 import java.util.Scanner;
 
-public class b1476³¯Â¥°è»ê {
+public class b1476ë‚ ì§œê³„ì‚° {
 
 	public static void main(String[] args) {
 

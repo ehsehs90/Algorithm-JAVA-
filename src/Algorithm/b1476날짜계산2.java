@@ -2,7 +2,7 @@ package Algorithm;
 
 import java.util.Scanner;
 
-public class b1476³¯Â¥°è»ê2 {
+public class b1476ë‚ ì§œê³„ì‚°2 {
 
 	public static void main(String[] args) {
 
@@ -10,10 +10,10 @@ public class b1476³¯Â¥°è»ê2 {
 		int E = sc.nextInt() - 1;
 		int S = sc.nextInt() - 1;
 		int M = sc.nextInt() - 1;
-		for (int i = 1;; i++) { //¿ÏÀüÅ½»ö Á¶°Ç!
+		for (int i = 1;; i++) { //ï¿½ï¿½ï¿½ï¿½Å½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½!
 			if (i % 15 == E && i % 28 == S && i % 19 == M) {
 				System.out.println(i + 1);
-				break;			//¸¸Á·ÇÏ¸é ¹Ýº¹¹®À» ºüÁ®³ª¿Â´Ù
+				break;			//ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½Ýºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â´ï¿½
 			}
 
 		}

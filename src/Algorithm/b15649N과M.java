@@ -2,12 +2,12 @@ package Algorithm;
 
 import java.util.Scanner;
 
-public class b15649N°úM {
+public class b15649Nê³¼M {
 	static boolean[] c = new boolean[10];
 	static int[] a = new int[10];
 
 	static void go(int index, int n, int m) {
-		// index == m Ãâ·Â
+		// index == m ï¿½ï¿½ï¿½
 		if (index == m) {
 			for (int i = 0; i < m; i++) {
 				System.out.print(a[i]);
@@ -16,7 +16,7 @@ public class b15649N°úM {
 			}
 			System.out.println();
 			return;
-		} // Áßº¹ ¾øÀÌ M°³ »Ì±â
+		} // ï¿½ßºï¿½ ï¿½ï¿½ï¿½ï¿½ Mï¿½ï¿½ ï¿½Ì±ï¿½
 		
 		for(int i=1; i<=n ; i++) {
 			if(c[i]) continue;

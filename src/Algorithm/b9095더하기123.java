@@ -2,7 +2,7 @@ package Algorithm;
 
 import java.util.Scanner;
 
-public class b9095´õÇÏ±â123 {
+public class b9095ë”í•˜ê¸°123 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

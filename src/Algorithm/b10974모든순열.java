@@ -1,6 +1,6 @@
 package Algorithm;
 
-public class b10974¸ðµç¼ø¿­ {
+public class b10974ëª¨ë“ ìˆœì—´ {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-public class K¹øÂ°¼ö {
+public class Kë²ˆì§¸ìˆ˜{
 
 	static int[] array = { 1, 5, 2, 6, 3, 7, 4 };
 	static int[][] commands = { { 2, 5, 3 }, { 4, 4, 1 }, { 1, 7, 3 } };

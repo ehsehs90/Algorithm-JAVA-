@@ -2,7 +2,7 @@ package Algorithm;
 
 import java.util.Scanner;
 
-public class b10973ÀÌÀü¼ø¿­ {
+public class b10973ì´ì „ìˆœì—´ {
 
 	public static boolean prev_permutation(int[] a) {
 		
