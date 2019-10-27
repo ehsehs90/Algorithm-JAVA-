@@ -51,7 +51,7 @@ public class b10974모든순열 {
 		} // 첫 순열 시작 (기준순열)
 		do {
 			for (int i = 0; i < n; i++) {
-				
+				//a[i] = i + 1; 이거 하면 안됨!
 				System.out.print(a[i] + " ");
 			}
 			System.out.println();
