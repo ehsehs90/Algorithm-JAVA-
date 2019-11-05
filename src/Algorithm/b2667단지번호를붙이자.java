@@ -69,7 +69,7 @@ public class b2667단지번호를붙이자 {
 					ans[group[i][j]]+=1;
 				}
 			}
-		}//그악
+		}//그악s
 		Arrays.sort(ans);
 		System.out.println(cnt);
 		for(int i=0; i<cnt; i++){
