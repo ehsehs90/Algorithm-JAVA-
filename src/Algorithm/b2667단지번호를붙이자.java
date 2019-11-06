@@ -48,7 +48,8 @@ public class b2667단지번호를붙이자 {
 			String s = sc.nextLine();
 			for (int j = 0; j < n; j++) {
 				a[i][j] = s.charAt(j) - '0';
-
+				//System.out.println(s.charAt(j) - '0');
+				
 			}
 
 		}
