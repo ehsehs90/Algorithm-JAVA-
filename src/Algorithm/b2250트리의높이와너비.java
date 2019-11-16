@@ -8,7 +8,7 @@ class Node {
         this.right = right;
     }
 }
-public class b2550트리의높이와너비 {
+public class b2250트리의높이와너비 {
     static Node[] a = new Node[10001];
     static int[] left = new int[10001];
     static int[] right = new int[10001];
